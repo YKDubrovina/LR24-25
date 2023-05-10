@@ -1,0 +1,67 @@
+object Form1: TForm1
+  Left = 1307
+  Height = 240
+  Top = 378
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '2.2.4.0'
+  object Calendar1: TCalendar
+    Left = 41
+    Height = 160
+    Top = 24
+    Width = 162
+    DateTime = 45006
+    TabOrder = 0
+  end
+  object DateEdit1: TDateEdit
+    Left = 41
+    Height = 23
+    Top = 192
+    Width = 162
+    CalendarDisplaySettings = [dsShowHeadings, dsShowDayNames]
+    DateOrder = doNone
+    ButtonWidth = 23
+    NumGlyphs = 1
+    MaxLength = 0
+    TabOrder = 1
+    Text = 'DateEdit1'
+  end
+  object Button1: TButton
+    Left = 216
+    Height = 40
+    Top = 24
+    Width = 93
+    Caption = 'кнопка'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Left = 216
+    Height = 40
+    Top = 72
+    Width = 93
+    Caption = 'Кнопка 2'
+    OnClick = Button2Click
+    TabOrder = 3
+  end
+  object Button3: TButton
+    Left = 216
+    Height = 39
+    Top = 120
+    Width = 92
+    Caption = 'Кнопка 3'
+    OnClick = Button3Click
+    TabOrder = 4
+  end
+  object Button4: TButton
+    Left = 216
+    Height = 40
+    Top = 168
+    Width = 92
+    Caption = 'Кнопка 4'
+    OnClick = Button4Click
+    TabOrder = 5
+  end
+end
